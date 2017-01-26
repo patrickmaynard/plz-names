@@ -1,0 +1,5 @@
+#holder {height:70px;}
+input {width:250px;}
+#dropdown p {margin:1px; background:#efefff; width:250px;}
+#dropdown p:hover {background:#ddddff;cursor:default;}
+form {z-index:9999; position:relative;}

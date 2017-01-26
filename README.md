@@ -1,2 +1,3 @@
 # plz-names
-This is a simple collection of plz names and codes.
+
+A simple microservice for suggesting German PLZ codes.

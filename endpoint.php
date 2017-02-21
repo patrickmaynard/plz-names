@@ -8,7 +8,7 @@
 //Our dbconfig file gives us a PDO handle called $dbh.
 include_once('dbconfig.php');
 
-class plz{
+class PLZ{
   public static function getResult($dbh){
     //We use both a regex filter and prepared statements to sanitize input. 
     $input = $_GET['description'];
@@ -25,6 +25,6 @@ class plz{
   }
 }
 
-print plz::getResult($dbh);
+print PLZ::getResult($dbh);
 
 ?>
